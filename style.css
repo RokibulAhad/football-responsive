@@ -39,6 +39,12 @@ main{
 }
 .right_column{
     padding-left: 60px;
+    overflow: hidden;
+}
+.right_column:hover img{
+    transform: scale(1.3);
+    transition: transform 5s ease-in-out;
+
 }
 .left_column h1{
     color: #FFFFFF;
@@ -110,10 +116,16 @@ main{
 .photo{
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
-.photos img{
+.photo img{
     width: 90%;
     
+}
+.photo:hover img{
+    transform: scale(1.3);
+    transition: transform 5s ease-in-out;
+
 }
 
 /* gallery end */
